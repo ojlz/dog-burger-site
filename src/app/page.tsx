@@ -43,6 +43,9 @@ const WhatsAppButton = dynamic(() => import("@/components/WhatsAppButton"), {
 const Tracker = dynamic(() => import("@/components/Tracker"), {
   ssr: false,
 });
+const Faq = dynamic(() => import("@/components/Faq"), {
+  ssr: false,
+});
 
 export default function Home() {
   useSmoothScroll();
@@ -75,6 +78,9 @@ export default function Home() {
 
       {/* Testimonials Section */}
       <Testimonials />
+
+      {/* FAQ Section */}
+      <Faq />
 
       {/* Location Section */}
       <Location />

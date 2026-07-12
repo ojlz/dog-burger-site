@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://dogburger.com.br</loc>
-    <lastmod>2024-01-01</lastmod>
+    <lastmod>2025-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://dogburger.com.br/burgao.jpeg</image:loc>
+      <image:title>Dog Burger - Melhor Hamburgueria Artesanal de Porto Fict√≠cio≠</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dogburger.com.br/australianoburger.jpg</image:loc>
+      <image:title>Australiano Burger - Dog Burger Porto Fict√≠cio≠</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dogburger.com.br/hotdogprensado.webp</image:loc>
+      <image:title>Hot Dog Prensado - Dog Burger Porto Fict√≠cio≠</image:title>
+    </image:image>
   </url>
 </urlset>

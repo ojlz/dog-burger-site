@@ -3,4 +3,20 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
+# Sitemaps
 Sitemap: https://dogburger.com.br/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Social
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
