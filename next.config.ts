@@ -36,6 +36,10 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  allowedDevOrigins: [
+    "desktop-83lqsps.tail50199b.ts.net",
+    "localhost:3000",
+  ],
   async headers() {
     return [
       {
