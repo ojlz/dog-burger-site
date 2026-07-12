@@ -1,0 +1,17 @@
+{
+  "name": "Dog Burger & Café",
+  "short_name": "Dog Burger",
+  "description": "O melhor hambúrguer artesanal de Porto Fictício�",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090909",
+  "theme_color": "#FFD400",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
