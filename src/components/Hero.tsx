@@ -60,7 +60,7 @@ export default function Hero() {
 
         {/* Main Headline - Word by Word */}
         <motion.h1
-          className="text-5xl sm:text-7xl md:text-8xl lg:text-[120px] font-bold font-[family-name:var(--font-display)] leading-[0.9] tracking-tighter mb-6"
+          className="text-[40px] sm:text-6xl md:text-7xl lg:text-[110px] font-bold font-[family-name:var(--font-display)] leading-[0.9] tracking-tighter mb-4 sm:mb-6"
           style={{ y: textY, opacity }}
         >
           {headlineWords.map((word, i) => (
@@ -84,7 +84,7 @@ export default function Hero() {
 
         {/* Subtitle */}
         <motion.p
-          className="text-lg md:text-xl text-muted max-w-2xl mx-auto mb-12 leading-relaxed"
+          className="text-base sm:text-lg md:text-xl text-muted max-w-2xl mx-auto mb-8 sm:mb-12 leading-relaxed px-2"
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.9 }}
@@ -137,31 +137,31 @@ export default function Hero() {
 
         {/* Stats */}
         <motion.div
-          className="mt-20 flex items-center justify-center gap-12 md:gap-20"
+          className="mt-12 sm:mt-16 flex items-center justify-center gap-8 sm:gap-12 md:gap-20 px-4"
           style={{ y: statsY }}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.4 }}
         >
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-primary">
+            <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary">
               4.8★
             </div>
-            <div className="text-sm text-muted mt-1">Avaliação</div>
+            <div className="text-xs sm:text-sm text-muted mt-1">Avaliação</div>
           </div>
-          <div className="w-px h-12 bg-border" />
+          <div className="w-px h-8 sm:h-12 bg-border" />
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-white">
+            <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-white">
               200+
             </div>
-            <div className="text-sm text-muted mt-1">Avaliações</div>
+            <div className="text-xs sm:text-sm text-muted mt-1">Avaliações</div>
           </div>
-          <div className="w-px h-12 bg-border" />
+          <div className="w-px h-8 sm:h-12 bg-border" />
           <div className="text-center">
-            <div className="text-3xl md:text-4xl font-bold text-white">
+            <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-white">
               2019
             </div>
-            <div className="text-sm text-muted mt-1">Desde</div>
+            <div className="text-xs sm:text-sm text-muted mt-1">Desde</div>
           </div>
         </motion.div>
       </div>

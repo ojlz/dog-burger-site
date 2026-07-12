@@ -15,13 +15,21 @@
   --font-display: 'Space Grotesk', sans-serif;
 }
 
-* {
-  cursor: none !important;
+/* Custom cursor - only on devices with fine pointer */
+@media (pointer: fine) {
+  * {
+    cursor: none !important;
+  }
+  body:has(.admin-page) * {
+    cursor: auto !important;
+  }
 }
 
-/* Restore cursor on admin pages */
-body:has(.admin-page) * {
-  cursor: auto !important;
+/* Default cursor for touch devices */
+@media (pointer: coarse) {
+  * {
+    cursor: auto !important;
+  }
 }
 
 html {

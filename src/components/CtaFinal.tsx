@@ -19,7 +19,7 @@ export default function CtaFinal() {
   return (
     <section
       ref={containerRef}
-      className="relative py-32 px-6 overflow-hidden"
+      className="relative py-20 sm:py-32 px-4 sm:px-6 overflow-hidden"
     >
       {/* Background Image - Simplified */}
       <motion.div className="absolute inset-0 gpu-accelerated" style={{ y }}>
@@ -33,7 +33,7 @@ export default function CtaFinal() {
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         {/* Headline */}
         <motion.h2
-          className="text-4xl md:text-6xl lg:text-8xl font-bold font-[family-name:var(--font-display)] leading-[0.9] tracking-tighter mb-8"
+          className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold font-[family-name:var(--font-display)] leading-[0.9] tracking-tighter mb-6 sm:mb-8"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -45,7 +45,7 @@ export default function CtaFinal() {
 
         {/* Subtitle */}
         <motion.p
-          className="text-xl md:text-2xl text-muted mb-12 max-w-2xl mx-auto"
+          className="text-base sm:text-xl md:text-2xl text-muted mb-8 sm:mb-12 max-w-2xl mx-auto px-2"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

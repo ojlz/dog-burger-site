@@ -181,18 +181,18 @@ export default function AdminPage() {
 
   if (!isAuthenticated) {
     return (
-      <div className="admin-page min-h-screen bg-background flex items-center justify-center px-6">
+      <div className="admin-page min-h-screen bg-background flex items-center justify-center px-4 sm:px-6">
         <motion.div
-          className="w-full max-w-md p-8 rounded-3xl glass"
+          className="w-full max-w-md p-6 sm:p-8 rounded-3xl glass"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <div className="text-center mb-8">
-            <Lock size={48} className="mx-auto text-primary mb-4" />
-            <h1 className="text-2xl font-bold text-white font-[family-name:var(--font-display)]">
+          <div className="text-center mb-6 sm:mb-8">
+            <Lock size={40} className="mx-auto text-primary mb-4" />
+            <h1 className="text-xl sm:text-2xl font-bold text-white font-[family-name:var(--font-display)]">
               Painel Administrativo
             </h1>
-            <p className="text-muted mt-2">Dog Burger & Café</p>
+            <p className="text-muted mt-2 text-sm">Dog Burger & Café</p>
           </div>
 
           <form onSubmit={handleLogin}>
@@ -235,40 +235,40 @@ export default function AdminPage() {
   return (
     <div className="admin-page min-h-screen bg-background">
       {/* Header */}
-      <header className="border-b border-border px-6 py-4">
+      <header className="border-b border-border px-4 sm:px-6 py-3 sm:py-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <span className="text-xl font-bold font-[family-name:var(--font-display)]">
+          <div className="flex items-center gap-2 sm:gap-3">
+            <span className="text-lg sm:text-xl font-bold font-[family-name:var(--font-display)]">
               <span className="gradient-text">DOG</span>
               <span className="text-white"> BURGER</span>
             </span>
-            <span className="text-muted text-sm">Admin</span>
+            <span className="text-muted text-xs sm:text-sm">Admin</span>
           </div>
 
-          <div className="flex items-center gap-4">
-            <div className="flex items-center gap-2 bg-surface px-4 py-2 rounded-lg">
+          <div className="flex items-center gap-2 sm:gap-4">
+            <div className="hidden sm:flex items-center gap-2 bg-surface px-4 py-2 rounded-lg">
               <div className="w-2 h-2 rounded-full bg-green-500" />
               <span className="text-sm text-muted">Online</span>
             </div>
 
             <motion.button
               onClick={handleLogout}
-              className="flex items-center gap-2 text-muted hover:text-white transition-colors"
+              className="flex items-center gap-1 sm:gap-2 text-muted hover:text-white transition-colors"
               whileHover={{ scale: 1.05 }}
             >
               <LogOut size={18} />
-              <span className="text-sm">Sair</span>
+              <span className="text-xs sm:text-sm">Sair</span>
             </motion.button>
           </div>
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-6 py-12">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-12">
         {/* Tabs */}
-        <div className="flex items-center gap-4 mb-8 flex-wrap">
+        <div className="flex items-center gap-2 sm:gap-4 mb-6 sm:mb-8 overflow-x-auto pb-2">
           <button
             onClick={() => setActiveTab("analytics")}
-            className={`px-6 py-3 rounded-xl font-medium transition-all ${
+            className={`px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-medium transition-all whitespace-nowrap text-sm sm:text-base ${
               activeTab === "analytics"
                 ? "bg-primary text-background"
                 : "bg-surface text-muted hover:text-white"
@@ -278,7 +278,7 @@ export default function AdminPage() {
           </button>
           <button
             onClick={() => setActiveTab("settings")}
-            className={`px-6 py-3 rounded-xl font-medium transition-all ${
+            className={`px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-medium transition-all whitespace-nowrap text-sm sm:text-base ${
               activeTab === "settings"
                 ? "bg-primary text-background"
                 : "bg-surface text-muted hover:text-white"
@@ -288,7 +288,7 @@ export default function AdminPage() {
           </button>
           <button
             onClick={() => setActiveTab("password")}
-            className={`px-6 py-3 rounded-xl font-medium transition-all ${
+            className={`px-4 sm:px-6 py-2 sm:py-3 rounded-xl font-medium transition-all whitespace-nowrap text-sm sm:text-base ${
               activeTab === "password"
                 ? "bg-primary text-background"
                 : "bg-surface text-muted hover:text-white"
@@ -503,15 +503,15 @@ function StatCard({
 }) {
   return (
     <motion.div
-      className="p-6 rounded-2xl glass"
+      className="p-4 sm:p-6 rounded-2xl glass"
       whileHover={{ y: -3 }}
       transition={{ type: "spring", stiffness: 300 }}
     >
-      <div className={`mb-4 ${color}`}>{icon}</div>
-      <div className="text-3xl font-bold text-white font-[family-name:var(--font-display)]">
+      <div className={`mb-3 sm:mb-4 ${color}`}>{icon}</div>
+      <div className="text-2xl sm:text-3xl font-bold text-white font-[family-name:var(--font-display)]">
         {value}
       </div>
-      <div className="text-muted text-sm mt-1">{label}</div>
+      <div className="text-muted text-xs sm:text-sm mt-1">{label}</div>
     </motion.div>
   );
 }

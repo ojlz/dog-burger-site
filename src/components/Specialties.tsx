@@ -16,14 +16,14 @@ export default function Specialties() {
     <section
       id="especialidades"
       ref={containerRef}
-      className="relative py-32 px-6 overflow-hidden"
+      className="relative py-20 sm:py-32 px-4 sm:px-6 overflow-hidden"
     >
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-surface to-background" />
 
       <div className="relative z-10 max-w-7xl mx-auto">
         {/* Section Header */}
-        <div ref={titleRef} className="text-center mb-20">
+        <div ref={titleRef} className="text-center mb-12 sm:mb-20">
           <motion.span
             className="text-primary text-sm tracking-[0.3em] uppercase font-medium"
             initial={{ opacity: 0, y: 20 }}

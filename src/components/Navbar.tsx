@@ -58,7 +58,7 @@ export default function Navbar() {
             className="flex items-center gap-2"
             whileHover={{ scale: 1.02 }}
           >
-            <span className="text-2xl font-bold font-[family-name:var(--font-display)]">
+            <span className="text-xl sm:text-2xl font-bold font-[family-name:var(--font-display)]">
               <span className="gradient-text">DOG</span>
               <span className="text-white"> BURGER</span>
             </span>

@@ -24,7 +24,7 @@ export default function Location() {
     <section
       id="localizacao"
       ref={containerRef}
-      className="relative py-32 px-6 overflow-hidden"
+      className="relative py-20 sm:py-32 px-4 sm:px-6 overflow-hidden"
     >
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-surface to-background" />
@@ -55,7 +55,7 @@ export default function Location() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Map */}
           <motion.div
-            className="relative rounded-3xl overflow-hidden aspect-square lg:aspect-auto lg:h-full min-h-[400px]"
+            className="relative rounded-3xl overflow-hidden aspect-[4/3] sm:aspect-square lg:aspect-auto lg:h-full min-h-[280px] sm:min-h-[400px]"
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}

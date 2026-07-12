@@ -19,7 +19,7 @@ export default function History() {
     <section
       id="historia"
       ref={containerRef}
-      className="relative py-32 px-6 overflow-hidden"
+      className="relative py-20 sm:py-32 px-4 sm:px-6 overflow-hidden"
     >
       {/* Background */}
       <div className="absolute inset-0">
@@ -31,7 +31,7 @@ export default function History() {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-16 items-center">
           {/* Image Side */}
           <motion.div
             className="relative"
@@ -53,7 +53,7 @@ export default function History() {
 
             {/* Floating Card */}
             <motion.div
-              className="absolute -bottom-8 -right-8 p-6 rounded-2xl glass"
+              className="absolute bottom-4 right-4 sm:-bottom-8 sm:-right-8 p-4 sm:p-6 rounded-2xl glass"
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -82,7 +82,7 @@ export default function History() {
             </motion.span>
 
             <motion.h2
-              className="text-4xl md:text-5xl lg:text-6xl font-bold font-[family-name:var(--font-display)] mt-4 tracking-tight"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold font-[family-name:var(--font-display)] mt-4 tracking-tight"
               initial={{ opacity: 0, y: 30 }}
               animate={titleInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.2 }}
@@ -97,13 +97,13 @@ export default function History() {
               animate={titleInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              <p className="text-muted text-lg leading-relaxed">
+              <p className="text-muted text-base sm:text-lg leading-relaxed">
                 O Dog Burger nasceu do sonho de criar algo diferente em
                 Porto Fictício�. Não apenas uma hamburgueria, mas um lugar onde cada
                 hambúrguer conta uma história de qualidade e sabor.
               </p>
 
-              <p className="text-muted text-lg leading-relaxed">
+              <p className="text-muted text-base sm:text-lg leading-relaxed">
                 Começamos com uma ideia simples:{" "}
                 <span className="text-white font-medium">
                   ingredientes selecionados, preparo artesanal e muito amor.
@@ -112,7 +112,7 @@ export default function History() {
                 positivas no Google.
               </p>
 
-              <p className="text-muted text-lg leading-relaxed">
+              <p className="text-muted text-base sm:text-lg leading-relaxed">
                 Nosso compromisso é oferecer não apenas um hambúrguer, mas uma
                 experiência completa que faz nossos clientes voltarem sempre.
               </p>
@@ -120,28 +120,28 @@ export default function History() {
 
             {/* Stats */}
             <motion.div
-              className="mt-12 grid grid-cols-3 gap-8"
+              className="mt-8 sm:mt-12 grid grid-cols-3 gap-4 sm:gap-8"
               initial={{ opacity: 0, y: 20 }}
               animate={titleInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.6 }}
             >
               <div>
-                <div className="text-3xl font-bold text-primary font-[family-name:var(--font-display)]">
+                <div className="text-xl sm:text-3xl font-bold text-primary font-[family-name:var(--font-display)]">
                   200+
                 </div>
-                <div className="text-sm text-muted mt-1">Avaliações</div>
+                <div className="text-xs sm:text-sm text-muted mt-1">Avaliações</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-white font-[family-name:var(--font-display)]">
+                <div className="text-xl sm:text-3xl font-bold text-white font-[family-name:var(--font-display)]">
                   4.8★
                 </div>
-                <div className="text-sm text-muted mt-1">Nota Média</div>
+                <div className="text-xs sm:text-sm text-muted mt-1">Nota Média</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-white font-[family-name:var(--font-display)]">
+                <div className="text-xl sm:text-3xl font-bold text-white font-[family-name:var(--font-display)]">
                   5k+
                 </div>
-                <div className="text-sm text-muted mt-1">Clientes Felizes</div>
+                <div className="text-xs sm:text-sm text-muted mt-1">Clientes Felizes</div>
               </div>
             </motion.div>
           </div>

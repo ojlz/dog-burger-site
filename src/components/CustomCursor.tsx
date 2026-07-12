@@ -1,20 +1,30 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, useMotionValue, useSpring } from "framer-motion";
 
 export default function CustomCursor() {
+  const [isTouchDevice, setIsTouchDevice] = useState(true);
+  const [isHovering, setIsHovering] = useState(false);
+  const [isClicking, setIsClicking] = useState(false);
+
   const cursorX = useMotionValue(0);
   const cursorY = useMotionValue(0);
   const springConfig = { damping: 25, stiffness: 400 };
   const cursorXSpring = useSpring(cursorX, springConfig);
   const cursorYSpring = useSpring(cursorY, springConfig);
 
-  const [isHovering, setIsHovering] = useState(false);
-  const [isClicking, setIsClicking] = useState(false);
-  const trailRef = useRef<HTMLDivElement>(null);
-
   useEffect(() => {
+    // Detect touch device
+    const isTouch =
+      "ontouchstart" in window ||
+      navigator.maxTouchPoints > 0 ||
+      window.matchMedia("(pointer: coarse)").matches;
+
+    setIsTouchDevice(isTouch);
+
+    if (isTouch) return;
+
     const handleMouseMove = (e: MouseEvent) => {
       cursorX.set(e.clientX);
       cursorY.set(e.clientY);
@@ -64,6 +74,9 @@ export default function CustomCursor() {
     };
   }, [cursorX, cursorY]);
 
+  // Don't render on touch devices
+  if (isTouchDevice) return null;
+
   return (
     <>
       <motion.div
@@ -80,7 +93,6 @@ export default function CustomCursor() {
         transition={{ type: "spring", damping: 20, stiffness: 300 }}
       />
       <motion.div
-        ref={trailRef}
         className="fixed top-0 left-0 w-10 h-10 rounded-full border border-primary/50 pointer-events-none z-[9998]"
         style={{
           x: cursorXSpring,

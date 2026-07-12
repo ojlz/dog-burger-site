@@ -24,7 +24,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="relative py-20 px-6 border-t border-border">
+    <footer className="relative py-12 sm:py-20 px-4 sm:px-6 border-t border-border">
       {/* Background */}
       <div className="absolute inset-0 bg-surface" />
 

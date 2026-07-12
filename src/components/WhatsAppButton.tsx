@@ -30,7 +30,7 @@ export default function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       onClick={handleClick}
-      className="fixed bottom-8 right-8 z-[90] w-16 h-16 rounded-full bg-[#25D366] flex items-center justify-center text-white shadow-lg whatsapp-pulse gpu-accelerated"
+      className="fixed bottom-6 right-6 sm:bottom-8 sm:right-8 z-[90] w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-[#25D366] flex items-center justify-center text-white shadow-lg whatsapp-pulse gpu-accelerated"
       initial={{ scale: 0, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       transition={{ delay: 2, type: "spring", stiffness: 200, damping: 15 }}
