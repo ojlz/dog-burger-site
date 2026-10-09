@@ -22,8 +22,8 @@ export function formatWhatsAppUrl(phone: string, message?: string): string {
 export const siteConfig: SiteConfig = {
   whatsappNumber: "5500090000007",
   businessName: "Dog Burger & Café",
-  tagline: "O sabor que faz Porto Fictício� voltar",
-  address: "Av. Fictícia, 621 - Centro, Porto Fictício� - MS, CEP: 00000-000",
+  tagline: "O sabor que faz Porto Fictício voltar",
+  address: "Av. Fictícia, 621 - Centro, Porto Fictício - EX, CEP: 00000-000",
   phone: "(00) 90000-0007",
   openingHours: "Dom: 18h–22h30 | Seg: Fechado | Ter–Sáb: 15h–22h30",
   rating: 4.8,
@@ -77,7 +77,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "1",
     name: "Mariana S.",
-    text: "O melhor hambúrguer que já comi em Porto Fictício�! A carne é incrível e o atendimento é excelente. Sempre peço pelo WhatsApp, super prático.",
+    text: "O melhor hambúrguer que já comi em Porto Fictício! A carne é incrível e o atendimento é excelente. Sempre peço pelo WhatsApp, super prático.",
     rating: 5,
   },
   {

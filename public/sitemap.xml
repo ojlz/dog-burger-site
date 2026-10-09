@@ -8,15 +8,15 @@
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://dogburger.com.br/burgao.jpeg</image:loc>
-      <image:title>Dog Burger - Melhor Hamburgueria Artesanal de Porto Fictício�</image:title>
+      <image:title>Dog Burger - Melhor Hamburgueria Artesanal de Porto Fictício</image:title>
     </image:image>
     <image:image>
       <image:loc>https://dogburger.com.br/australianoburger.jpg</image:loc>
-      <image:title>Australiano Burger - Dog Burger Porto Fictício�</image:title>
+      <image:title>Australiano Burger - Dog Burger Porto Fictício</image:title>
     </image:image>
     <image:image>
       <image:loc>https://dogburger.com.br/hotdogprensado.webp</image:loc>
-      <image:title>Hot Dog Prensado - Dog Burger Porto Fictício�</image:title>
+      <image:title>Hot Dog Prensado - Dog Burger Porto Fictício</image:title>
     </image:image>
   </url>
 </urlset>

@@ -7,19 +7,19 @@ const siteUrl = "https://dogburger.com.br";
 export const metadata: Metadata = {
   title: {
     default:
-      "Dog Burger & Café | Melhor Hamburgueria Artesanal de Porto Fictício�-MS",
+      "Dog Burger & Café | Melhor Hamburgueria Artesanal de Porto Fictício/EX",
     template: "%s | Dog Burger & Café",
   },
   description:
-    "🏆 Dog Burger & Café - A melhor hamburgueria artesanal de Porto Fictício�, MS. Hambúrgueres feitos na churrasqueira, Hot Dogs prensados e cafés especiais. 📲 Peça pelo WhatsApp! ⭐ 4.8 estrelas no Google.",
+    "🏆 Dog Burger & Café - A melhor hamburgueria artesanal de Porto Fictício/EX. Hambúrgueres feitos na churrasqueira, Hot Dogs prensados e cafés especiais. 📲 Peça pelo WhatsApp! ⭐ 4.8 estrelas no Google.",
   keywords: [
     // Principais
-    "hamburgueria Porto Fictício�",
-    "hambúrguer artesanal Porto Fictício�",
-    "hot dog Porto Fictício�",
-    "dog burger Porto Fictício�",
-    "melhor hamburger Porto Fictício�",
-    "hamburgueria Estado Fictício",
+    "hamburgueria porto-ficticio",
+    "hambúrguer artesanal porto-ficticio",
+    "hot dog porto-ficticio",
+    "dog burger porto-ficticio",
+    "melhor hamburger porto-ficticio",
+    "hamburgueria estado fictício",
     // Pratos
     "australiano burger",
     "páprica burger",
@@ -30,14 +30,14 @@ export const metadata: Metadata = {
     // Genéricos
     "hambúrguer artesanal",
     "comida artesanal",
-    "delivery Porto Fictício�",
-    "lanchonete Porto Fictício�",
-    "restaurante Porto Fictício�",
+    "delivery porto-ficticio",
+    "lanchonete porto-ficticio",
+    "restaurante porto-ficticio",
     // Intenção de compra
-    "pedir hamburger Porto Fictício�",
+    "pedir hamburger porto-ficticio",
     "hamburger perto de mim",
-    "onde comer em Porto Fictício�",
-    "melhor lanche Porto Fictício�",
+    "onde comer em porto-ficticio",
+    "melhor lanche porto-ficticio",
   ],
   authors: [{ name: "Dog Burger & Café" }],
   creator: "Dog Burger & Café",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     url: siteUrl,
     siteName: "Dog Burger & Café",
-    title: "Dog Burger & Café | Melhor Hamburgueria Artesanal de Porto Fictício�",
+    title: "Dog Burger & Café | Melhor Hamburgueria Artesanal de Porto Fictício",
     description:
       "🏆 Hambúrgueres artesanais feitos na churrasqueira e Hot Dogs prensados. ⭐ 4.8 estrelas no Google. 📲 Peça pelo WhatsApp!",
     images: [
@@ -56,21 +56,21 @@ export const metadata: Metadata = {
         url: "/burgao.jpeg",
         width: 1200,
         height: 630,
-        alt: "Dog Burger - Melhor Hamburgueria Artesanal de Porto Fictício� - Hambúrguer Australiano",
+        alt: "Dog Burger - Melhor Hamburgueria Artesanal de Porto Fictício - Hambúrguer Australiano",
       },
       {
         url: "/australianoburger.jpg",
         width: 800,
         height: 600,
-        alt: "Australiano Burger - Dog Burger Porto Fictício�",
+        alt: "Australiano Burger - Dog Burger Porto Fictício",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dog Burger & Café | Melhor Hamburgueria de Porto Fictício�",
+    title: "Dog Burger & Café | Melhor Hamburgueria de Porto Fictício",
     description:
-      "🏆 Hambúrgueres artesanais e Hot Dogs em Porto Fictício�-MS. ⭐ 4.8 no Google. Peça pelo WhatsApp!",
+      "🏆 Hambúrgueres artesanais e Hot Dogs em Porto Fictício/EX. ⭐ 4.8 no Google. Peça pelo WhatsApp!",
     images: ["/burgao.jpeg"],
   },
   robots: {
@@ -90,7 +90,7 @@ export const metadata: Metadata = {
   other: {
     "google-site-verification": "",
     "geo.region": "BR-MS",
-    "geo.placename": "Porto Fictício�",
+    "geo.placename": "Porto Fictício",
     "geo.position": "-23.0588221;-54.1959596",
     "ICBM": "0.0000, -30.0000",
   },
@@ -105,11 +105,11 @@ const restaurantSchema = {
   url: siteUrl,
   telephone: "+5500090000007",
   description:
-    "Hamburgueria artesanal em Porto Fictício�-MS. Hambúrgueres feitos na churrasqueira, Hot Dogs prensados e cafés especiais.",
+    "Hamburgueria artesanal em Porto Fictício/EX. Hambúrgueres feitos na churrasqueira, Hot Dogs prensados e cafés especiais.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Av. Fictícia, 621",
-    addressLocality: "Porto Fictício�",
+    addressLocality: "Porto Fictício",
     addressRegion: "MS",
     postalCode: "00000-000",
     addressCountry: "BR",
@@ -164,7 +164,7 @@ const restaurantSchema = {
       "@type": "Review",
       author: { "@type": "Person", name: "Mariana S." },
       reviewRating: { "@type": "Rating", ratingValue: "5" },
-      reviewBody: "O melhor hambúrguer que já comi em Porto Fictício�! A carne é incrível e o atendimento é excelente.",
+      reviewBody: "O melhor hambúrguer que já comi em Porto Fictício! A carne é incrível e o atendimento é excelente.",
     },
     {
       "@type": "Review",
@@ -210,7 +210,7 @@ const faqSchema = {
       name: "A Dog Burger faz delivery?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Sim! Você pode pedir pelo WhatsApp (00) 90000-0007. Entregamos em Porto Fictício� e região.",
+        text: "Sim! Você pode pedir pelo WhatsApp (00) 90000-0007. Entregamos em Porto Fictício e região.",
       },
     },
     {
@@ -223,10 +223,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Onde fica a Dog Burger em Porto Fictício�?",
+      name: "Onde fica a Dog Burger em Porto Fictício?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Estamos na Av. Fictícia, 621 - Centro, Porto Fictício� - MS, CEP: 00000-000. Pelo Google Maps, busque por 'Dog Burger & Café'.",
+        text: "Estamos na Av. Fictícia, 621 - Centro, Porto Fictício - MS, CEP: 00000-000. Pelo Google Maps, busque por 'Dog Burger & Café'.",
       },
     },
     {
@@ -242,7 +242,7 @@ const faqSchema = {
       name: "Qual a nota da Dog Burger no Google?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A Dog Burger tem 4.8 estrelas no Google com mais de 200 avaliações. Somos a hamburgueria mais bem avaliada de Porto Fictício�!",
+        text: "A Dog Burger tem 4.8 estrelas no Google com mais de 200 avaliações. Somos a hamburgueria mais bem avaliada de Porto Fictício!",
       },
     },
   ],
@@ -258,7 +258,7 @@ const localBusinessSchema = {
   address: {
     "@type": "PostalAddress",
     streetAddress: "Av. Fictícia, 621",
-    addressLocality: "Porto Fictício�",
+    addressLocality: "Porto Fictício",
     addressRegion: "MS",
     postalCode: "00000-000",
     addressCountry: "BR",

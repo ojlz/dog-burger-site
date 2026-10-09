@@ -33,6 +33,9 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# local CMS fallback (may contain real WhatsApp number)
+data/
+
 # vercel
 .vercel
 
