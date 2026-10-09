@@ -89,9 +89,9 @@ export const metadata: Metadata = {
   },
   other: {
     "google-site-verification": "",
-    "geo.region": "BR-MS",
+    "geo.region": "BR-EX",
     "geo.placename": "Porto Fictício",
-    "geo.position": "-23.0588221;-54.1959596",
+    "geo.position": "0.0000;-30.0000",
     "ICBM": "0.0000, -30.0000",
   },
 };
@@ -116,8 +116,8 @@ const restaurantSchema = {
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: -23.0588221,
-    longitude: -54.1959596,
+    latitude: 0.0000,
+    longitude: -30.0000,
   },
   priceRange: "$$",
   servesCuisine: ["Hambúrguer Artesanal", "Hot Dog", "Café", "Lanche"],
@@ -226,7 +226,7 @@ const faqSchema = {
       name: "Onde fica a Dog Burger em Porto Fictício?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Estamos na Av. Fictícia, 621 - Centro, Porto Fictício - MS, CEP: 00000-000. Pelo Google Maps, busque por 'Dog Burger & Café'.",
+        text: "Estamos na Av. Fictícia, 621 - Centro, Porto Fictício - EX, CEP: 00000-000. Pelo Google Maps, busque por 'Dog Burger & Café'.",
       },
     },
     {
@@ -265,8 +265,8 @@ const localBusinessSchema = {
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: -23.0588221,
-    longitude: -54.1959596,
+    latitude: 0.0000,
+    longitude: -30.0000,
   },
   priceRange: "$$",
   openingHoursSpecification: [

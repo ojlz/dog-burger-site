@@ -62,7 +62,7 @@ export default function Location() {
             transition={{ duration: 0.8 }}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.5!2d-54.1959596!3d-23.0588221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x948b8f54ffaf68db%3A0x27fafaa0f01ed365!2sDog%20Burger%20%26%20Caf%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.5!2d-30.0000!3d0.0000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x948b8f54ffaf68db%3A0x27fafaa0f01ed365!2sDog%20Burger%20%26%20Caf%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
               width="100%"
               height="100%"
               style={{ border: 0, filter: "grayscale(1) invert(1) contrast(1.1)" }}
@@ -138,7 +138,7 @@ export default function Location() {
 
             {/* CTA Button */}
             <motion.a
-              href="https://www.google.com/maps/place/Dog+Burger+%26+Caf%C3%A9/@0.0000, -30.0000,17z/data=!3m1!4b1!4m6!3m5!1s0x948b8f54ffaf68db:0x27fafaa0f01ed365!8m2!3d-23.0588221!4d-54.1959596!16s%2Fg%2F11n6pyxz2k"
+              href="https://www.google.com/maps/place/Dog+Burger+%26+Caf%C3%A9/@0.0000, -30.0000,17z/data=!3m1!4b1!4m6!3m5!1s0x948b8f54ffaf68db:0x27fafaa0f01ed365!8m2!3d0.0000!4d-30.0000!16s%2Fg%2F11n6pyxz2k"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 w-full p-6 rounded-2xl bg-primary text-background font-bold text-lg hover:bg-primary-dark transition-colors"
