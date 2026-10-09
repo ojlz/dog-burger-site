@@ -4,7 +4,7 @@ Disallow: /admin/
 Disallow: /api/
 
 # Sitemaps
-Sitemap: https://dogburger.com.br/sitemap.xml
+Sitemap: https://dog-burger-site.vercel.app/sitemap.xml
 
 # Google
 User-agent: Googlebot

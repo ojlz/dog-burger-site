@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import AnalyticsProvider from "@/components/AnalyticsProvider";
 
-const siteUrl = "https://dogburger.com.br";
+const siteUrl = "https://dog-burger-site.vercel.app";
 
 export const metadata: Metadata = {
   title: {

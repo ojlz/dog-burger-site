@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://dogburger.com.br</loc>
+    <loc>https://dog-burger-site.vercel.app</loc>
     <lastmod>2025-07-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://dogburger.com.br/burgao.jpeg</image:loc>
+      <image:loc>https://dog-burger-site.vercel.app/burgao.jpeg</image:loc>
       <image:title>Dog Burger - Melhor Hamburgueria Artesanal de Porto Fictício</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://dogburger.com.br/australianoburger.jpg</image:loc>
+      <image:loc>https://dog-burger-site.vercel.app/australianoburger.jpg</image:loc>
       <image:title>Australiano Burger - Dog Burger Porto Fictício</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://dogburger.com.br/hotdogprensado.webp</image:loc>
+      <image:loc>https://dog-burger-site.vercel.app/hotdogprensado.webp</image:loc>
       <image:title>Hot Dog Prensado - Dog Burger Porto Fictício</image:title>
     </image:image>
   </url>
