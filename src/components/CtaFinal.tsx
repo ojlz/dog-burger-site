@@ -53,7 +53,7 @@ export default function CtaFinal() {
         >
           Para experimentar o{" "}
           <span className="text-white font-bold">melhor hambúrguer</span> de
-          Porto Fictício�? Cada mordida é uma experiência que você não vai esquecer.
+          Porto Fictício? Cada mordida é uma experiência que você não vai esquecer.
         </motion.p>
 
         {/* CTA Button */}

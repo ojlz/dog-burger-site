@@ -99,7 +99,7 @@ export default function History() {
             >
               <p className="text-muted text-base sm:text-lg leading-relaxed">
                 O Dog Burger nasceu do sonho de criar algo diferente em
-                Porto Fictício�. Não apenas uma hamburgueria, mas um lugar onde cada
+                Porto Fictício. Não apenas uma hamburgueria, mas um lugar onde cada
                 hambúrguer conta uma história de qualidade e sabor.
               </p>
 

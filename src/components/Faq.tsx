@@ -15,7 +15,7 @@ const faqs = [
   {
     question: "A Dog Burger faz delivery?",
     answer:
-      "Sim! Você pode pedir pelo WhatsApp (00) 90000-0007. Entregamos em Porto Fictício� e região.",
+      "Sim! Você pode pedir pelo WhatsApp (00) 90000-0007. Entregamos em Porto Fictício e região.",
   },
   {
     question: "Qual o horário de funcionamento?",
@@ -25,7 +25,7 @@ const faqs = [
   {
     question: "Onde fica a Dog Burger?",
     answer:
-      "Av. Fictícia, 621 - Centro, Porto Fictício� - MS, CEP: 00000-000. Busque por 'Dog Burger & Café' no Google Maps.",
+      "Av. Fictícia, 621 - Centro, Porto Fictício - EX, CEP: 00000-000. Busque por 'Dog Burger & Café' no Google Maps.",
   },
   {
     question: "A Dog Burger tem hot dog prensado?",
@@ -35,7 +35,7 @@ const faqs = [
   {
     question: "Qual a nota da Dog Burger no Google?",
     answer:
-      "4.8 estrelas com mais de 200 avaliações. Somos a hamburgueria mais bem avaliada de Porto Fictício�!",
+      "4.8 estrelas com mais de 200 avaliações. Somos a hamburgueria mais bem avaliada de Porto Fictício!",
   },
 ];
 

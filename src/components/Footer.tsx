@@ -126,7 +126,7 @@ export default function Footer() {
           <p className="text-muted text-sm flex items-center gap-2">
             © {new Date().getFullYear()} {siteConfig.businessName}. Feito com{" "}
             <Heart size={14} className="text-primary fill-primary" /> em
-            Porto Fictício�.
+            Porto Fictício.
           </p>
 
           <motion.button
